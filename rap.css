@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+}
+.Table{
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+}
+table{
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+
+}
+table td{
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+}

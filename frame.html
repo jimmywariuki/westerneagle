@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Frames Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            border: 2px solid #000;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #f4f4f4;
+            border-right: 2px solid #000;
+            padding: 10px;
+        }
+        .content {
+            flex: 1;
+            padding: 10px;
+        }
+        .footer {
+            height: 50px;
+            background-color: #ccc;
+            border-top: 2px solid #000;
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Menu</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Welcome!</h1>
+            <p>This is the main content area. Add whatever content you like here.</p>
+        </div>
+    </div>
+    <div class="footer">
+        Footer Information
+    </div>
+</body>
+</html>

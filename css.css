@@ -1,0 +1,41 @@
+h1{
+    background-color: black;
+    color: azure;
+    font-size: 1.1em;
+    text-align: center;
+}
+body{
+    align-items: center;
+    box-align:center;
+}
+
+ .input{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(227, 230, 230);
+    align-items: center;
+    margin-left:500px;
+    width: 400px;
+    box-shadow: 3px 3px black;
+    border-top: 5px solid rgb(6, 141, 231);
+    border-bottom: 5px solid rgb(6, 141, 231);
+ }
+ .txt{
+    margin-right: 50px;
+    border:none;
+    outline: none;
+    background: transparent;
+    font-size: 1em;
+    font-weight: bold;
+ }
+ .container{
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+ }
+ .container:has(.checkbox:checked){
+    color:rgb(7, 14, 7);
+    background-color: rgb(163, 158, 152);
+    text-decoration: line-through;
+    order:1;/*all items have default order of 0 since 1 is greater than zero the order property will push the checked items down*/
+ }
